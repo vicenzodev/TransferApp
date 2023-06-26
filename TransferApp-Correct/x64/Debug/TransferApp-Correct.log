@@ -1,0 +1,3 @@
+﻿  Init.cpp
+C:\Users\heito\source\repos\TransferApp-Correct\TransferApp-Correct\Init.cpp(83,42): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+  TransferApp-Correct.vcxproj -> C:\Users\heito\source\repos\TransferApp-Correct\x64\Debug\TransferApp-Correct.exe
