@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <tchar.h>
-#include "Devices.cpp";
+#include "Device.h"
 
 static TCHAR AppName[] = _T("DesktopApp");
 static TCHAR AppTitle[] = _T("TransferApp");
@@ -42,9 +42,9 @@ int WINAPI WinMain(_In_  HINSTANCE hInstance,
 
 	hInst = hInstance;
 
-	HWND hWnd = CreateWindowEx(WS_EX_OVERLAPPEDWINDOW,
-		AppName,
-		AppTitle,
+	HWND hWnd = CreateWindowEx(
+		WS_EX_OVERLAPPEDWINDOW,
+		AppName, AppTitle,
 		WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, CW_USEDEFAULT,
 		windowWidth, windowHeight, NULL, NULL, hInstance, NULL);

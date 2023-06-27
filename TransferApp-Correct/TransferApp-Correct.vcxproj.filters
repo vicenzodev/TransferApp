@@ -18,8 +18,10 @@
     <ClCompile Include="Init.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="Devices.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
